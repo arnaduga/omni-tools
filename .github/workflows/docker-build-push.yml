@@ -12,6 +12,7 @@ on:
 
 env:
   DOCKER_IMAGE: arnaduga/omnitools
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   test-and-build:
